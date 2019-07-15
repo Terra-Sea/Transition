@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.NextController">
+   <children>
+      <Button fx:id="nextPage_button" layoutX="116.0" layoutY="163.0" mnemonicParsing="false" onAction="#nextPage_button_onClick" prefHeight="74.0" prefWidth="169.0" text="画面１へ">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Label layoutX="173.0" layoutY="106.0" text="画面２">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
